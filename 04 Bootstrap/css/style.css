@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333;
+    background: #fff;
+    margin: 0 15%;
+}
+
+header {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0 20px 0;
+    text-align: center;
+}
+
+.menu {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.menu ul li:hover {
+    background: #7990f6;
+    color: #ddd
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333
+}
+
+.menu ul li a:hover {
+    text-decoration: none;
+    color: #ddd
+}
+
+.menu ul li ul {
+    display: none;
+    position: absolute;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.menu ul li:hover ul {
+    display: block;
+    margin-top: 5px;
+    margin-left: -15px;
+    padding: 0;
+}
+
+.menu ul li ul li {
+    display: block;
+    padding: 5px;
+}
+
+.menu ul li ul li:hover {
+    background: #e0e0e0;
+}
+
+.menu ul li ul li:hover a {
+    color: #333;
+}
+.intro-card {
+    margin: 20px 0 20px 0;
+    padding: 0;
+}
+
+.intro-card h2 {
+    margin: 0 0 10px 0;
+}
+
+.intro-card .content {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.intro-card .content img {
+    display: block;
+    width: 150px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.intro-card .content p {
+    display: block;
+    margin: 0;
+    padding: 0 15px;
+}
+
+footer {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer * {
+    margin: 0;
+    padding: 5px 10px;
+}
