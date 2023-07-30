@@ -5,3 +5,7 @@ body {
     width: 1024px;
     margin: auto;
 }
+
+.highlighted {
+    color: #ff7700;
+}
