@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: #dddddd;
+    color: black;
     font-family: sans-serif;
     width: 1024px;
     margin: auto;
@@ -8,4 +8,8 @@ body {
 
 .highlighted {
     color: #ff7700;
+}
+
+p {
+    font-size: 20px;
 }
