@@ -1,0 +1,19 @@
+{
+  "name": "ncli",
+  "version": "1.0.0",
+  "description": "Simple test command line app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.12",
+    "prompt-sync": "^4.2.0",
+    "terminal-kit": "^3.0.1"
+  }
+}
