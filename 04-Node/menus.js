@@ -12,7 +12,7 @@ async function main() {
     {
       type: 'input',
       name: 'name',
-      message: "What ist your name?"
+      message: "What is your name?"
     },
   ]);
 
@@ -22,7 +22,7 @@ async function main() {
     {
       type: 'input',
       name: 'color',
-      message: "What ist your favorite color?",
+      message: "What is your favorite color?",
       default: 'red'
     },
     {
@@ -45,3 +45,4 @@ async function main() {
 }
 
 await main();
+
